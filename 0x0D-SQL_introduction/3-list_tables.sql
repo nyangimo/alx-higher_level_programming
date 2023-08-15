@@ -1,3 +1,4 @@
---This scrip lists all tables of a database
+-- This SQL script lists all the tables of the specified datbase.
 
-SHOW tables;
+SHOW TABLES FROM DATABASE();
+
