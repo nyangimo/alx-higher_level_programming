@@ -1,1 +1,4 @@
-SELECT * FROM first_table;
+-- This query selects all fields from the table "first_table" in the database "hbtn_0c_0"
+
+SELECT * FROM hbtn_0c_0.first_table;
+
