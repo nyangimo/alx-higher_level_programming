@@ -1,6 +1,5 @@
--- This query updates the score of the person named "Bob" to 10 in the table "second_table"
+-- A script that updates the score of Bob to 10 in the table second_table in my MySQL server.
 
-UPDATE hbtn_0c_0.second_table
-SET score = 10
-WHERE name = 'Bob';
-
+UPDATE `second_table`
+SET `score` = 10
+WHERE `name` = "Bob";

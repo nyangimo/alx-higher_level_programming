@@ -1,5 +1,4 @@
--- This query deletes all records with a score less than or equal to 5 in the table "second_table"
+-- A script that removes all records with a score <= 5 in the table second_table in my MySQL server.
 
-DELETE FROM hbtn_0c_0.second_table
-WHERE score <= 5;
-
+DELETE FROM `second_table`
+WHERE `score` <= 5;
